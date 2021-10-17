@@ -1,2 +1,2 @@
 # person-training
-https://infern0538.github.io/person-trainer/
+https://infern0538.github.io/personal-training/
