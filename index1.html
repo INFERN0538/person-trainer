@@ -49,6 +49,22 @@
   
 }
 
+	    * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
     </style>
   </head>
@@ -57,9 +73,10 @@
 
 <center><h2>Breakfast<div align="left"><a href="https://infern0538.github.io/personal-training/"><img src="https://image.flaticon.com/icons/png/512/17/17264.png" style="height:50px; width:50px; transform:rotate(360deg);"></a></div></h2></center>
     
+<div class="row">
+  <div class="column">
  <div> 
-    <h1>Oatmeal Supreme</h1><img src="
-   https://www.foodiecrush.com/wp-content/uploads/2018/04/Instant-Pot-Oatmeal-foodiecrush.com-020-683x1024-1.jpg" alt="Paris" style="width:15%; float: left; margin-bottom: 4%;">
+    <h1>Oatmeal Supreme</h1>
  <straight1>Ingredients</straight1>
    <div><p>1 cup water to <sup>1</sup>&frasl;<sub>2</sub> cup oats</p></div>
   <p><sup>1</sup>&frasl;<sub>8</sub> cup brown sugar</p>
@@ -67,6 +84,13 @@
   <p>4 oz diced fruit</p>
   <p><sup>1</sup>&frasl;<sub>8</sub> cup milk</p>
    </div>
+  </div>
+  <div class="column">
+ <img src="
+   https://www.foodiecrush.com/wp-content/uploads/2018/04/Instant-Pot-Oatmeal-foodiecrush.com-020-683x1024-1.jpg" alt="Paris" style="width:100%;">
+  </div>
+  
+</div>
   
   
   
