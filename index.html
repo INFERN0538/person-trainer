@@ -161,12 +161,51 @@ text-decoration: none;
 }
 /*none active link elements are white*/
 }
- 
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: right;
+  width: 10%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+ .a {
+float:right;
+}
 </style>
 <title>PERSONAL TRAINING</title>
 </head>
 <body>
-
+<div class="a">
+<form class="example" action="/action_page.php" style="margin:auto;max-width:100%">
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
 
 <center><h2>
 Welcome to your personal training website<a href=""><img class="a" src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Paris" style="width:3%; margin-left:5%; "></a>
