@@ -196,6 +196,24 @@ form.example::after {
  .a {
 float:right;
 }
+ 
+ * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ 
 </style>
 <title>PERSONAL TRAINING</title>
 </head>
@@ -257,8 +275,16 @@ Welcome to your personal training website<a href=""><img class="a" src="https://
 </div>
 </div>
 </center>
-<img src="http://sportschump.net/wp-content/uploads/2020/04/question-mark-hat.jpg" alt="Paris" style="width:20%; float: right; margin-top: 5%;">
-<straight> Hello my name is Dante Dwyer and I will be your personal trainer Hello my name is Dante Dwyer and I will be your personal trainer Hello my name is Dante Dwyer and I will be your personal trainerHello my name is Dante Dwyer and I will be your personal trainer Hello my name is Dante Dwyer and I will be your personal trainer Hello my name is Dante Dwyer and I will be your personal trainerHello my name is Dante Dwyer and I will be your personal trainer Hello my name is Dante Dwyer and I will be your personal trainer Hello my name is Dante Dwyer and I will be your personal trainer</straight>
+<div class="row">
+  <div class="column">
+    <p>hidffdgfghfgnfgngfngfnfgngvfvfddfvdfvbfbgtfn</p>
+      <p>hidffdgfghfgnfgngfngfnfgngvfvfddfvdfvbfbgtfn</p>
+  </div>
+ 
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
   <center><p> Dante Dwyer </p></center>
   <address>
   <div class="fubar">
