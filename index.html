@@ -203,7 +203,7 @@ form.example::after {
 float:right;
 }
  
- * {
+* {
   box-sizing: border-box;
 }
 
@@ -212,7 +212,6 @@ float:right;
   width: 33.33%;
   padding: 5px;
 }
-
 
 /* Clearfix (clear floats) */
 .row::after {
@@ -236,6 +235,13 @@ div.a {
  div.b {
   width: 10%;
   border: 1px solid lightblue;
+  float:right;
+}
+
+ div.e {
+  width: 100%;
+  border: 1px solid black;
+  word-wrap: break-word;
   float:right;
 }
 
@@ -302,15 +308,14 @@ Welcome to your personal training website<a href=""><img class="a" src="https://
 </center>
 <div class="row">
   <div class="column">
-    <img src="http://sportschump.net/wp-content/uploads/2020/04/question-mark-hat.jpg" alt="Snow" style="width:50%">
-  </div>
-  
-  <div class="column">
-<div class="c"> hidffdgfghfgnfgngfngfnfgngvfvfddfvdfvbfbgtfnhidffdgfghfgnfgngfngfnfgngvfvfddfvdfvbfbgtfn
-  </div>
+    <img src="http://sportschump.net/wp-content/uploads/2020/04/question-mark-hat.jpg" alt="Snow" style="width:100%">
   </div>
   <div class="column">
-    <img src="http://sportschump.net/wp-content/uploads/2020/04/question-mark-hat.jpg" alt="Mountains" style="width:50%">
+    <div class="c"> hidffdgfghfgnfgngfngfnfgngvfvfddfvdfvbfbgtfnhidffdgfghfgnfgngfngfnfgngvfvfddfvdfvbfbgtfn
+  </div>
+  </div>
+  <div class="column">
+    <img src="http://sportschump.net/wp-content/uploads/2020/04/question-mark-hat.jpg" alt="Mountains" style="width:100%">
   </div>
 </div>
 
